@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EF0669A27D1E6C7AF239AD /* libPods-CameraCloudApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D59538457C30DF9EEC7A69F /* libPods-CameraCloudApp.a */; };
+		9E03D8731D58D21E0078470F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D8721D58D21E0078470F /* main.m */; };
+		9E03D8761D58D21E0078470F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D8751D58D21E0078470F /* AppDelegate.m */; };
+		9E03D8791D58D21E0078470F /* MomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D8781D58D21E0078470F /* MomentsViewController.m */; };
+		9E03D87C1D58D21E0078470F /* PhotoLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D87B1D58D21E0078470F /* PhotoLibraryViewController.m */; };
+		9E03D87F1D58D21E0078470F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D87D1D58D21E0078470F /* Main.storyboard */; };
+		9E03D8811D58D21E0078470F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D8801D58D21E0078470F /* Assets.xcassets */; };
+		9E03D8841D58D21E0078470F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D8821D58D21E0078470F /* LaunchScreen.storyboard */; };
+		9E03D88C1D5952260078470F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D88B1D5952260078470F /* GoogleService-Info.plist */; };
+		9E03D88F1D595AC00078470F /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D88E1D595AC00078470F /* DAO.m */; };
+		9E03D8A51D5A5C840078470F /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D8A41D5A5C840078470F /* ImageCell.m */; };
+		9E03D9281D6246A50078470F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D9271D6246A50078470F /* Photo.m */; };
+		9E03D9881D64E5E30078470F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D9871D64E5E30078470F /* DetailViewController.m */; };
+		9E03D98A1D64F35C0078470F /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D9891D64F35C0078470F /* mapicon.png */; };
+		9E03D9911D6647520078470F /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E03D98F1D6647520078470F /* DetailTableViewCell.m */; };
+		9E03D9921D6647520078470F /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E03D9901D6647520078470F /* DetailTableViewCell.xib */; };
+		9E3384E41D67A8C500894C9A /* hourGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3384E31D67A8C500894C9A /* hourGlass.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		126524DB86A9267C61F9DC1E /* Pods-CameraCloudApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraCloudApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraCloudApp/Pods-CameraCloudApp.debug.xcconfig"; sourceTree = "<group>"; };
+		83D9D2776BA26E4BD652E3B0 /* Pods-CameraCloudApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraCloudApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraCloudApp/Pods-CameraCloudApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D59538457C30DF9EEC7A69F /* libPods-CameraCloudApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CameraCloudApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E03D86E1D58D21E0078470F /* CameraCloudApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraCloudApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E03D8721D58D21E0078470F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E03D8741D58D21E0078470F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E03D8751D58D21E0078470F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E03D8771D58D21E0078470F /* MomentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentsViewController.h; sourceTree = "<group>"; };
+		9E03D8781D58D21E0078470F /* MomentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentsViewController.m; sourceTree = "<group>"; };
+		9E03D87A1D58D21E0078470F /* PhotoLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoLibraryViewController.h; sourceTree = "<group>"; };
+		9E03D87B1D58D21E0078470F /* PhotoLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoLibraryViewController.m; sourceTree = "<group>"; };
+		9E03D87E1D58D21E0078470F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E03D8801D58D21E0078470F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E03D8831D58D21E0078470F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E03D8851D58D21E0078470F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E03D88B1D5952260078470F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E03D88D1D595AC00078470F /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		9E03D88E1D595AC00078470F /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		9E03D8A31D5A5C840078470F /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		9E03D8A41D5A5C840078470F /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		9E03D9261D6246A50078470F /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		9E03D9271D6246A50078470F /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		9E03D9861D64E5E30078470F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9E03D9871D64E5E30078470F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9E03D9891D64F35C0078470F /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
+		9E03D98E1D6647520078470F /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		9E03D98F1D6647520078470F /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		9E03D9901D6647520078470F /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		9E3384E31D67A8C500894C9A /* hourGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourGlass.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E03D86B1D58D21E0078470F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF0669A27D1E6C7AF239AD /* libPods-CameraCloudApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40814384B4B348A8E657C414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D59538457C30DF9EEC7A69F /* libPods-CameraCloudApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E03D8651D58D21E0078470F = {
+			isa = PBXGroup;
+			children = (
+				9E03D8701D58D21E0078470F /* CameraCloudApp */,
+				9E03D86F1D58D21E0078470F /* Products */,
+				B205B3BF3A5C6BC631178084 /* Pods */,
+				40814384B4B348A8E657C414 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E03D86F1D58D21E0078470F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E03D86E1D58D21E0078470F /* CameraCloudApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E03D8701D58D21E0078470F /* CameraCloudApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E03D88D1D595AC00078470F /* DAO.h */,
+				9E03D88E1D595AC00078470F /* DAO.m */,
+				9E03D8741D58D21E0078470F /* AppDelegate.h */,
+				9E03D8751D58D21E0078470F /* AppDelegate.m */,
+				9E03D8771D58D21E0078470F /* MomentsViewController.h */,
+				9E03D8781D58D21E0078470F /* MomentsViewController.m */,
+				9E03D9261D6246A50078470F /* Photo.h */,
+				9E03D9271D6246A50078470F /* Photo.m */,
+				9E03D9861D64E5E30078470F /* DetailViewController.h */,
+				9E03D9871D64E5E30078470F /* DetailViewController.m */,
+				9E03D98E1D6647520078470F /* DetailTableViewCell.h */,
+				9E03D98F1D6647520078470F /* DetailTableViewCell.m */,
+				9E03D9901D6647520078470F /* DetailTableViewCell.xib */,
+				9E03D8A31D5A5C840078470F /* ImageCell.h */,
+				9E03D8A41D5A5C840078470F /* ImageCell.m */,
+				9E03D87A1D58D21E0078470F /* PhotoLibraryViewController.h */,
+				9E03D87B1D58D21E0078470F /* PhotoLibraryViewController.m */,
+				9E03D88B1D5952260078470F /* GoogleService-Info.plist */,
+				9E03D87D1D58D21E0078470F /* Main.storyboard */,
+				9E03D8801D58D21E0078470F /* Assets.xcassets */,
+				9E03D8821D58D21E0078470F /* LaunchScreen.storyboard */,
+				9E03D8851D58D21E0078470F /* Info.plist */,
+				9E3384E31D67A8C500894C9A /* hourGlass.png */,
+				9E03D9891D64F35C0078470F /* mapicon.png */,
+				9E03D8711D58D21E0078470F /* Supporting Files */,
+			);
+			path = CameraCloudApp;
+			sourceTree = "<group>";
+		};
+		9E03D8711D58D21E0078470F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E03D8721D58D21E0078470F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B205B3BF3A5C6BC631178084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				126524DB86A9267C61F9DC1E /* Pods-CameraCloudApp.debug.xcconfig */,
+				83D9D2776BA26E4BD652E3B0 /* Pods-CameraCloudApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E03D86D1D58D21E0078470F /* CameraCloudApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E03D8881D58D21E0078470F /* Build configuration list for PBXNativeTarget "CameraCloudApp" */;
+			buildPhases = (
+				4C0CA1ECDD15CC1524B2B416 /* [CP] Check Pods Manifest.lock */,
+				9E03D86A1D58D21E0078470F /* Sources */,
+				9E03D86B1D58D21E0078470F /* Frameworks */,
+				9E03D86C1D58D21E0078470F /* Resources */,
+				3AEF97AB45D100A380627CE8 /* [CP] Embed Pods Frameworks */,
+				486745E2F3469D0438A5E30B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraCloudApp;
+			productName = CameraCloudApp;
+			productReference = 9E03D86E1D58D21E0078470F /* CameraCloudApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E03D8661D58D21E0078470F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sahlitude;
+				TargetAttributes = {
+					9E03D86D1D58D21E0078470F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M386QYE9Z9;
+					};
+				};
+			};
+			buildConfigurationList = 9E03D8691D58D21E0078470F /* Build configuration list for PBXProject "CameraCloudApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E03D8651D58D21E0078470F;
+			productRefGroup = 9E03D86F1D58D21E0078470F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E03D86D1D58D21E0078470F /* CameraCloudApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E03D86C1D58D21E0078470F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3384E41D67A8C500894C9A /* hourGlass.png in Resources */,
+				9E03D8841D58D21E0078470F /* LaunchScreen.storyboard in Resources */,
+				9E03D98A1D64F35C0078470F /* mapicon.png in Resources */,
+				9E03D88C1D5952260078470F /* GoogleService-Info.plist in Resources */,
+				9E03D8811D58D21E0078470F /* Assets.xcassets in Resources */,
+				9E03D9921D6647520078470F /* DetailTableViewCell.xib in Resources */,
+				9E03D87F1D58D21E0078470F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEF97AB45D100A380627CE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraCloudApp/Pods-CameraCloudApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486745E2F3469D0438A5E30B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraCloudApp/Pods-CameraCloudApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0CA1ECDD15CC1524B2B416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E03D86A1D58D21E0078470F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E03D9281D6246A50078470F /* Photo.m in Sources */,
+				9E03D88F1D595AC00078470F /* DAO.m in Sources */,
+				9E03D8A51D5A5C840078470F /* ImageCell.m in Sources */,
+				9E03D9911D6647520078470F /* DetailTableViewCell.m in Sources */,
+				9E03D9881D64E5E30078470F /* DetailViewController.m in Sources */,
+				9E03D87C1D58D21E0078470F /* PhotoLibraryViewController.m in Sources */,
+				9E03D8761D58D21E0078470F /* AppDelegate.m in Sources */,
+				9E03D8791D58D21E0078470F /* MomentsViewController.m in Sources */,
+				9E03D8731D58D21E0078470F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E03D87D1D58D21E0078470F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E03D87E1D58D21E0078470F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E03D8821D58D21E0078470F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E03D8831D58D21E0078470F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E03D8861D58D21E0078470F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E03D8871D58D21E0078470F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E03D8891D58D21E0078470F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126524DB86A9267C61F9DC1E /* Pods-CameraCloudApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M386QYE9Z9;
+				INFOPLIST_FILE = CameraCloudApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.CameraCloudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E03D88A1D58D21E0078470F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D9D2776BA26E4BD652E3B0 /* Pods-CameraCloudApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M386QYE9Z9;
+				INFOPLIST_FILE = CameraCloudApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.CameraCloudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E03D8691D58D21E0078470F /* Build configuration list for PBXProject "CameraCloudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E03D8861D58D21E0078470F /* Debug */,
+				9E03D8871D58D21E0078470F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E03D8881D58D21E0078470F /* Build configuration list for PBXNativeTarget "CameraCloudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E03D8891D58D21E0078470F /* Debug */,
+				9E03D88A1D58D21E0078470F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E03D8661D58D21E0078470F /* Project object */;
+}

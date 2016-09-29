@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1045182057666-en1ioa3amu8pa16qqm3b0elaf47chl7e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1045182057666-en1ioa3amu8pa16qqm3b0elaf47chl7e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBbE9S1tG0UPLttsl5CMRvqxGO5umTDevk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1045182057666</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sahlitude.CameraCloudApp</string>
+	<key>PROJECT_ID</key>
+	<string>camera-cloud-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>camera-cloud-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1045182057666:ios:4174d7ea155ababe</string>
+	<key>DATABASE_URL</key>
+	<string>https://camera-cloud-app.firebaseio.com</string>
+</dict>
+</plist>
